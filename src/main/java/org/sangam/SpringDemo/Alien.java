@@ -32,7 +32,8 @@ public class Alien {
         this.name = name;
     }
 
-    public Alien() {
+    public Alien(int age) {
+        this.age = age;
         System.out.println("Alien object created");
     }
     public void code(){
