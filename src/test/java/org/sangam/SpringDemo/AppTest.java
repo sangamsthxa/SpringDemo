@@ -1,4 +1,4 @@
-package org.sangam;
+package org.sangam.SpringDemo;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
