@@ -6,7 +6,7 @@ public class Alien {
 
     private String name;
 
-    private Laptop laptop;
+    private Computer com;
 
     public int getAge() {
         return age;
@@ -16,12 +16,12 @@ public class Alien {
         this.age = age;
     }
 
-    public void setLaptop(Laptop laptop) {
-        this.laptop = laptop;
+    public Computer getCom() {
+        return com;
     }
 
-    public Laptop getLaptop() {
-        return laptop;
+    public void setCom(Computer com) {
+        this.com = com;
     }
 
     public String getName() {
@@ -32,11 +32,11 @@ public class Alien {
         this.name = name;
     }
 
-    public Alien(int age) {
-        this.age = age;
+    public Alien() {
         System.out.println("Alien object created");
     }
     public void code(){
         System.out.println("I'm coding..");
+        com.compile();
     }
 }
